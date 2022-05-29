@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Toggle a background color</title>
+    <script
+      src="https://kit.fontawesome.com/b15dbbfbd9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h2></h2>
+    <!-- Hamburger icon -->
+    <div class="btn-toggle-nav">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <!-- Start of sidebar nav -->
+    <nav class="nav-sidebar">
+      <ul>
+        <li>
+          <label for="home-color">1. Home</label>
+          <input
+            type="radio"
+            id="home-color"
+            name="colors"
+            value="gray"
+            checked
+          />
+        </li>
+        <li>
+          <label for="red-color">2. Red</label>
+          <input type="radio" id="red-color" name="colors" value="red" />
+        </li>
+        <li>
+          <label for="green-color">3. Green</label>
+          <input type="radio" id="green-color" name="colors" value="green" />
+        </li>
+        <li>
+          <label for="blue-color">4. Blue</label>
+          <input type="radio" id="blue-color" name="colors" value="blue" />
+        </li>
+        <li>
+          <label for="purple-color">5. Purple</label>
+          <input type="radio" id="purple-color" name="colors" value="purple" />
+        </li>
+      </ul>
+    </nav>
+    <!-- End of sidebar nav -->
+    <script defer src="script.js" type="text/javascript"></script>
+  </body>
+</html>
