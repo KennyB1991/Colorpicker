@@ -92,7 +92,6 @@ getNavBtn.addEventListener("mouseleave", function () {
 /* Event listener for keypress (keydown), to change colors based on number key pressed */
 document.addEventListener("keydown", function (event) {
   let name = event.key;
-  let code = event.code;
 
   const colorId = [];
 
