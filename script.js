@@ -81,11 +81,7 @@ InitialSetup();
 const getNavBtn = document.querySelector(".btn-toggle-nav");
 
 /* Event listener when mouse enters the nav icon */
-getNavBtn.addEventListener("mouseenter", function () {
-  toggleNav();
-});
-
-getNavBtn.addEventListener("mouseleave", function () {
+getNavBtn.addEventListener("click", function () {
   toggleNav();
 });
 
